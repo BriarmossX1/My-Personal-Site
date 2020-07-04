@@ -1,0 +1,178 @@
+/*
+Fonts
+    font-family: 'Merriweather', serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Sacramento', cursive;
+*/
+
+
+/*Main Elements*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+hr {
+    clear: both;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+}
+
+.subtitle {
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #40514E;
+}
+
+p {
+    color: #40514E;
+    line-height: 2;
+}
+
+
+/*Intro container*/
+
+.topContainer {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    margin: auto;
+    width: 30%;
+}
+
+.topCloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+
+/*Skills container*/
+
+.middleContainer {
+    margin: 100px 0;
+}
+
+.profilePicture {
+    margin-top: 10px;
+}
+
+.skill-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.computer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-gamer {
+    margin: 0 0 10px 30px;
+    float: right;
+    clear: left;
+    width: 25%;
+}
+
+.gamer-img {
+    width: 100%;
+    margin: 0;
+}
+
+figcaption {
+    font-size: .5em;
+}
+
+.fig-link {
+    margin: 0;
+}
+
+
+/*Contact area*/
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    height: 5px;
+    color: #EAF6F6;
+    width: 125px;
+    padding: 15px 15px 25px 15px;
+    background-color: #66BFBF;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #66BFBF 0px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #11999E;
+    border: solid #11999E 0px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.bottomContainer {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: .75rem;
+    padding: 20px 0;
+}
